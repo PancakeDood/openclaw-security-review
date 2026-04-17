@@ -68,23 +68,9 @@ The scanner writes:
 - `output/findings.json`
 - `output/findings.md`
 
-## Suggested Presentation Demo
-
-1. Show the repo on GitHub.
-2. Run the scanner on `sample_target`.
-3. Point out the total findings and top risky files.
-4. Open `output/findings.md` and highlight 2-3 findings.
-5. Connect those findings to your attack scenarios and recommendations.
-
 ## Limitations
 
 - Regex-based matching can produce false positives.
 - The tool does not execute code or verify exploitability.
 - Findings should be manually reviewed before being treated as real vulnerabilities.
 
-## Future Improvements
-
-- Add path-based suppression rules
-- Add richer context windows around matches
-- Add CSV export and charts
-- Add rule configuration via YAML or JSON
