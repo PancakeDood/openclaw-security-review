@@ -1,0 +1,4 @@
+service:
+  auth_disabled: True
+  password: "demo-password"
+  token: "plain-text-token"
